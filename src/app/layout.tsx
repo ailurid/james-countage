@@ -1,12 +1,13 @@
+import "@/styles/globals.css"
 import type { Metadata } from 'next'
 import { Work_Sans } from 'next/font/google'
-import './globals.css'
-import { ThemeProvider } from './theme-provider'
+
+import { ThemeProvider } from '@/components/theme-provider'
 
 const workSans = Work_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'John Doe',
+  title: 'James Countage',
 }
 
 export default function RootLayout({

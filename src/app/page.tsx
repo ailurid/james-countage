@@ -1,5 +1,13 @@
+import { ThemeSwitcher } from '@/components/theme-switcher'
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 import LINKS from '@/links'
-import { ThemeSwitcher } from './theme-switcher'
 
 export default function Home() {
   return (
@@ -12,17 +20,42 @@ export default function Home() {
         />
 
         <div className="mt-8">
-          <h2 className="text-3xl font-heading sm:text-[44px]">John Doe</h2>
-          <p className="mt-6 text-base font-base sm:text-xl">
-            This is the bento neobrutalism template. Check the{' '}
-            <a
-              className="font-heading underline"
-              href="https://github.com/neobrutalism-templates/bento"
-            >
-              github repo
-            </a>{' '}
-            for more info.
-          </p>
+          <h2 className="text-[44px] font-heading">James Countage</h2>
+
+          <div
+            className="text-text dark:text-text w-full flex gap-5"
+          >
+            <Card>
+              <CardHeader>
+                <CardTitle>69</CardTitle>
+                <CardDescription>days</CardDescription>
+              </CardHeader>
+            </Card>
+            <Card>
+              <CardHeader>
+                <div className="text-lg font-heading sm:text-xl">
+                  {69}
+                </div>
+                <div className="text-sm text-black font-base ">
+                  hours
+                </div>
+              </CardHeader>
+            </Card>
+          </div>
+
+          <Card>
+            <CardHeader>
+              <CardTitle>Card Title</CardTitle>
+              <CardDescription>Card Description</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p>Card Content</p>
+            </CardContent>
+            <CardFooter>
+              <p>Card Footer</p>
+            </CardFooter>
+          </Card>
+
         </div>
 
         <ThemeSwitcher />
