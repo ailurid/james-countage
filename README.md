@@ -1,12 +1,4 @@
-<img src="public/preview.png" />
-
 # Bento
-
-Bento is a neobrutalism-styled nextjs tailwind template heavily insipired by bento.me.
-
-## Get started
-
-[Create a new repo](https://github.com/neobrutalism-templates/bento/generate) from this template.
 
 ### Installation
 
